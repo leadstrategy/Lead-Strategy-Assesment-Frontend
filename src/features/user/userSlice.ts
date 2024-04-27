@@ -15,6 +15,7 @@ const createdSlice = createSlice({
   name: 'candidate',
   initialState,
   reducers: {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     addCandidate(state, action: PayloadAction<any | void>) {
       return {
         ...state,

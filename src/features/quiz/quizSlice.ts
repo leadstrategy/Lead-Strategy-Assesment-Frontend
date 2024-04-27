@@ -54,6 +54,7 @@ const createdSlice = createSlice({
         quiz: initialState.quiz,
       };
     },
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     addResult(state, action: PayloadAction<any | void>) {
       return {
         ...state,

@@ -22,7 +22,7 @@ export default function Home() {
 
   if (quizData.loading) return <Loader text='Preparing your assesment...' />;
 
-  if (myQuiz)
+  if (myQuiz) {
     return (
       <PageWrapper className='gap-16 md:flex-row md:items-center justify-evenly'>
         <div className='flex flex-col gap-5'>
@@ -43,6 +43,7 @@ export default function Home() {
         </div>
       </PageWrapper>
     );
+  }
 
   return (
     <PageWrapper className='gap-16 md:flex-row md:content-center justify-evenly'>

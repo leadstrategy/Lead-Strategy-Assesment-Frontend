@@ -4,7 +4,7 @@ import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-export const ProgressBar = ({ percentage = 0, className = '', color = '#d05353ff', ...props }) => {
+export const ProgressBar = ({ percentage = 0, className = '', color = '#d05353ff' }) => {
   return (
     <div className={`progressBar ${className}`}>
       <CircularProgressbar
