@@ -38,13 +38,18 @@ and create a new file .env and copy the content of .env.sample
 Running locally:
 
 ```bash
-yarn start
+yarn dev
 ```
 
 Building the app for production:
 
 ```bash
 yarn build
+```
+
+Running in production mode:
+```bash
+yarn start
 ```
 
 Testing:
